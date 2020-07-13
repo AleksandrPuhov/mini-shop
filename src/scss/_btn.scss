@@ -1,0 +1,17 @@
+.btn {
+    background: #540075;
+    color: white;
+    border: 1px solid #540075;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    font: inherit;
+    cursor: pointer;
+    &:focus {
+        outline: none;
+    }
+    &:hover,
+    &:active {
+        background: #790fa3;
+        border-color: #790fa3;
+    }
+}

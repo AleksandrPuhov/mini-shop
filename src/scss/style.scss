@@ -1,0 +1,39 @@
+@import 'vars.scss';
+@import 'mixins.scss';
+
+@import 'main.scss';
+@import 'btn.scss';
+@import 'product.scss';
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #540075;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+}
+
+header h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.cart {
+    margin: 5rem 2rem;
+    border: 2px solid #540075;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #540075;
+}
